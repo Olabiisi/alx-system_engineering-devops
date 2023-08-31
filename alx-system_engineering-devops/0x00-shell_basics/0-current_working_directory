@@ -1,2 +1,7 @@
 #!/bin/bash
-ALX-shell basics
+# This is a script that prints the absolute path of the current working directory.
+# Usage: ./0-current_working_directory
+
+# Using the pwd command to print the absolute path of the current working directory
+current_directory=$(pwd)
+echo "Absolute path of the current working directory: $current_directory"
